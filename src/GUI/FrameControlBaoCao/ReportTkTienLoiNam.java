@@ -19,6 +19,7 @@ public class ReportTkTienLoiNam extends JFrame{
         } catch (Exception ex) {
             ex.printStackTrace();
         }
+        //note lại nè
 
         setSize(600, 500);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
