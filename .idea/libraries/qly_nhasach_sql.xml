@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="qly_nhasach.sql">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/database/qly_nhasach.sql.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

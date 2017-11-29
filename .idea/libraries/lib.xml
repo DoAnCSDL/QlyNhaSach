@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/lib/jasperreports-fonts-4.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jasperreports-4.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/mysql-connector-java-5.1.13-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/printer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/commons-collections-3.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/groovy-all-1.7.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/commons-logging-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/AbsoluteLayout.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/commons-beanutils-1.8.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jcalendar-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/JTattoo-1.6.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/beansbinding-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/commons-digester-1.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/swingx-2010_04_18.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/mysql-connector-java-5.0.8-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jasperreports-4.5.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
