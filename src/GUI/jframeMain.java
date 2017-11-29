@@ -146,44 +146,46 @@ JLabel lbUser, lbquyen ;
         setTitle("PHẦN MỀM QUẢN LÝ NHÀ SÁCH");
         setLocationByPlatform(true);
 
+        desktopCN.setBackground(new java.awt.Color(255, 255, 102));
         desktopCN.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        desktopCN.setForeground(new java.awt.Color(255, 255, 51));
 
         jLabel5.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
+        desktopCN.add(jLabel5);
         jLabel5.setBounds(20, 100, 0, 0);
-        desktopCN.add(jLabel5, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLabel3.setFont(new java.awt.Font("Times New Roman", 1, 48)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel3.setForeground(new java.awt.Color(255, 0, 51));
         jLabel3.setText("HỆ THỐNG QUẢN LÝ NHÀ SÁCH");
+        desktopCN.add(jLabel3);
         jLabel3.setBounds(140, 60, 830, 60);
-        desktopCN.add(jLabel3, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/Book.gif"))); // NOI18N
         jLabel1.setText("jLabel1");
+        desktopCN.add(jLabel1);
         jLabel1.setBounds(480, 310, 260, 260);
-        desktopCN.add(jLabel1, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/data/img/1.png"))); // NOI18N
         jLabel4.setText("jLabel4");
+        desktopCN.add(jLabel4);
         jLabel4.setBounds(10, 170, 310, 210);
-        desktopCN.add(jLabel4, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/data/img/2.png"))); // NOI18N
         jLabel6.setText("jLabel6");
+        desktopCN.add(jLabel6);
         jLabel6.setBounds(10, 390, 310, 153);
-        desktopCN.add(jLabel6, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/data/img/3.png"))); // NOI18N
         jLabel7.setText("jLabel7");
+        desktopCN.add(jLabel7);
         jLabel7.setBounds(10, 550, 150, 132);
-        desktopCN.add(jLabel7, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/data/img/4.png"))); // NOI18N
         jLabel8.setText("jLabel8");
+        desktopCN.add(jLabel8);
         jLabel8.setBounds(170, 550, 150, 130);
-        desktopCN.add(jLabel8, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
-        jPanelTab.setBackground(new java.awt.Color(51, 51, 51));
+        jPanelTab.setBackground(new java.awt.Color(255, 255, 102));
         jPanelTab.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanelTab.setForeground(new java.awt.Color(255, 255, 255));
 
@@ -316,6 +318,7 @@ JLabel lbUser, lbquyen ;
             }
         });
 
+        desktop.setBackground(new java.awt.Color(255, 255, 102));
         desktop.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
