@@ -230,18 +230,18 @@ public class jframeConnectData extends javax.swing.JFrame {
 
     private void jButtonDangNhapActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonDangNhapActionPerformed
         // TODO add your handling code here:
-         if( ketnoi.DAO.Open(jComboBoxTenMayChu.getSelectedItem().toString(),
-                 jComboBoxTenDangNhap.getSelectedItem().toString(), 
-                 jPasswordFieldMatKhau.getText(), jComboBoxTenCSDL.getSelectedItem().toString(), 1433))
-            //JOptionPane.showMessageDialog(Login.this, "Kết nối thành công đến CSDL.", "Connect successfuly", JOptionPane.INFORMATION_MESSAGE);
-        {
-            //JOptionPane.showConfirmDialog(null, "Kết nối thành công đến CSDL.", "Connect successfuly", JOptionPane.YES_NO_OPTION);
-            JOptionPane.showMessageDialog(null, "Kết nối thành công đến CSDL.");
+//         if( ketnoi.DAO.Open(jComboBoxTenMayChu.getSelectedItem().toString(),
+//                 jComboBoxTenDangNhap.getSelectedItem().toString(), 
+//                 jPasswordFieldMatKhau.getText(), jComboBoxTenCSDL.getSelectedItem().toString(), 1433))
+//            //JOptionPane.showMessageDialog(Login.this, "Kết nối thành công đến CSDL.", "Connect successfuly", JOptionPane.INFORMATION_MESSAGE);
+//        {
+//            //JOptionPane.showConfirmDialog(null, "Kết nối thành công đến CSDL.", "Connect successfuly", JOptionPane.YES_NO_OPTION);
+//            JOptionPane.showMessageDialog(null, "Kết nối thành công đến CSDL.");
             new Login().show();
-            dispose();
-        }
-        else
-            JOptionPane.showMessageDialog(this, "Lỗi đăng nhập CSDL", "Lỗi đăng nhập", JOptionPane.ERROR_MESSAGE);        
+//            dispose();
+//        }
+//        else
+//            JOptionPane.showMessageDialog(this, "Lỗi đăng nhập CSDL", "Lỗi đăng nhập", JOptionPane.ERROR_MESSAGE);        
     }//GEN-LAST:event_jButtonDangNhapActionPerformed
 
     private void jButtonThoatActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonThoatActionPerformed

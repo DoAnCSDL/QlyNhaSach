@@ -16,12 +16,13 @@ import java.sql.Statement;
 import javax.swing.JTextField;
 import javax.swing.JPasswordField;
 import javax.swing.JButton;
+//transaction, trigger trong xử lý thông tin lưu trữ
 
 public class Login extends JFrame {
 	private JTextField tfUsername;
 	private JPasswordField pfPassword;
 	
-	public Login() {
+	public Login() {7
 		setIconImage(Toolkit.getDefaultToolkit().getImage(Login.class.getResource("/data/img/log_in.png")));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setSize(552,404);
