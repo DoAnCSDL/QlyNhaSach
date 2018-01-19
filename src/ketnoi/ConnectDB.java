@@ -6,7 +6,7 @@ import javax.swing.JOptionPane;
 public class ConnectDB{
 
 	static Connection conn = null;
-	static String conString = "jdbc:mysql://localhost:3307/qly_nhasach";
+	static String conString = "jdbc:mysql://localhost:3306/qly_nhasach";
 	static String driver = "com.mysql.jdbc.Driver";
 	static String userName = "root";
 	static String password = "123456";
