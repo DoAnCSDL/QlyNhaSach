@@ -8,7 +8,7 @@ import java.sql.*;
  */
 public class MySQLConnect {
     String _host = "localhost";
-    int _port = 3306;
+    int _port = 3307;
     String _userName = "root";
     String _pass = "123456";
     String _dataBase = "qly_nhasach";
