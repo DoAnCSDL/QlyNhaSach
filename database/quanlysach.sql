@@ -255,7 +255,7 @@ CREATE TABLE `taikhoan` (
   `phanquyen` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`idtaikhoan`),
   UNIQUE KEY `idtaikhoan_UNIQUE` (`idtaikhoan`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -264,6 +264,7 @@ CREATE TABLE `taikhoan` (
 
 LOCK TABLES `taikhoan` WRITE;
 /*!40000 ALTER TABLE `taikhoan` DISABLE KEYS */;
+INSERT INTO `taikhoan` VALUES (1,'admin','admin',1);
 /*!40000 ALTER TABLE `taikhoan` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -302,4 +303,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-01-20  2:44:21
+-- Dump completed on 2018-01-20  2:55:39
