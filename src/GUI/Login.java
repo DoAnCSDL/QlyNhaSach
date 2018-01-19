@@ -22,7 +22,7 @@ public class Login extends JFrame {
 	private JTextField tfUsername;
 	private JPasswordField pfPassword;
 	
-	public Login() {7
+	public Login() {
 		setIconImage(Toolkit.getDefaultToolkit().getImage(Login.class.getResource("/data/img/log_in.png")));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setSize(552,404);
